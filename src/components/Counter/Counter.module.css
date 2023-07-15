@@ -1,0 +1,44 @@
+.red {
+    color: red;
+    font-weight: bold;
+}
+.box {
+    width: 600px;
+    height: 300px;
+    border: darkcyan solid 5px;
+    margin-left: 400px;
+    margin-top: 50px;
+    display: flex;
+    position: relative;
+}
+.container {
+    display: flex;
+    position: absolute;
+    margin-top: 120px;
+    justify-content: space-around;
+    margin-left: 185px;
+}
+h1 {
+    margin-left: 225px;
+}
+.up {
+    width: 100px;
+    display: flex;
+    position: absolute;
+    margin-left: 100px;
+    padding-right: 150px;
+}
+.down {
+    width: 10px;
+    display: flex;
+    position: absolute;
+    margin-left: 300px;
+    padding-left: 150px;
+}
+.zero {
+    display: flex;
+    position: absolute;
+    margin-left: 240px;
+    font-size: xxx-large;
+    font-weight: bold;
+}
