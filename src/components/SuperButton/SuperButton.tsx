@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React from 'react';
 import s from './SuperButton.module.css'
 
 type SuperButtonType = {
@@ -17,8 +17,9 @@ export const SuperButton = (props: SuperButtonType) => {
         <div>
             <button disabled={props.disabled}
                     onClick={ onClickUpHandler }
-                    className={s.but}
-            >{props.title}</button>
+                    className={s.but}>
+                {props.title}
+            </button>
         </div>
     );
 };
